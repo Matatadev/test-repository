@@ -13,8 +13,6 @@ def create_file():
     finally:
         print("File creation process completed.\n")
 
-
-# File Reading and Display
 def read_file():
     try:
         with open("my_file.txt", "r") as file:
@@ -27,8 +25,6 @@ def read_file():
     finally:
         print("File reading process completed.\n")
 
-
-# File Appending
 def append_file():
     try:
         with open("my_file.txt", "a") as file:
@@ -44,7 +40,6 @@ def append_file():
         print("File appending process completed.\n")
 
 
-# Main function
 def main():
     create_file()
     read_file()
